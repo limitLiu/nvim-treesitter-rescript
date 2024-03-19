@@ -1,7 +1,7 @@
-(switch_expression) @scope
+[(switch_expression)] @local.scope
 
 ; Definitions
 ;------------
-(type_declaration) @definition.type
-(let_binding) @definition.var
-(module_declaration) @definition.namespace
+(type_declaration) @local.definition.type
+(let_binding) @local.definition.var
+(module_declaration) @local.definition.namespace
